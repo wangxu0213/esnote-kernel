@@ -22,7 +22,7 @@ import (
 
 	"github.com/88250/gulu"
 	"github.com/olahol/melody"
-	"github.com/siyuan-note/eventbus"
+	"github.com/wangxu0213/esnote-kernel/eventbus"
 )
 
 var (

@@ -28,10 +28,10 @@ import (
 	"time"
 
 	"github.com/88250/gulu"
-	"github.com/siyuan-note/httpclient"
-	"github.com/wangxu0213/esnote-logging"
-	"gitlab.eshopforce.com/esnote/esnote-app/kernel/conf"
-	"gitlab.eshopforce.com/esnote/esnote-app/kernel/util"
+	"github.com/wangxu0213/esnote-kernel/conf"
+	"github.com/wangxu0213/esnote-kernel/httpclient"
+	"github.com/wangxu0213/esnote-kernel/logging"
+	"github.com/wangxu0213/esnote-kernel/util"
 )
 
 var ErrFailedToConnectCloudServer = errors.New("failed to connect cloud server")

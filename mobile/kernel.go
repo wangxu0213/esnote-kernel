@@ -23,12 +23,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/siyuan-note/siyuan/kernel/cache"
-	"github.com/siyuan-note/siyuan/kernel/job"
-	"github.com/siyuan-note/siyuan/kernel/model"
-	"github.com/siyuan-note/siyuan/kernel/server"
-	"github.com/siyuan-note/siyuan/kernel/sql"
-	"github.com/siyuan-note/siyuan/kernel/util"
+	"github.com/wangxu0213/esnote-kernel/cache"
+	"github.com/wangxu0213/esnote-kernel/job"
+	"github.com/wangxu0213/esnote-kernel/model"
+	"github.com/wangxu0213/esnote-kernel/server"
+	"github.com/wangxu0213/esnote-kernel/sql"
+	"github.com/wangxu0213/esnote-kernel/util"
 	_ "golang.org/x/mobile/bind"
 )
 

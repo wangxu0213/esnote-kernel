@@ -23,8 +23,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/siyuan-note/siyuan/kernel/util"
-	"github.com/wangxu0213/esnote-logging"
+	"github.com/wangxu0213/esnote-kernel/logging"
+	"github.com/wangxu0213/esnote-kernel/util"
 )
 
 type Asset struct {

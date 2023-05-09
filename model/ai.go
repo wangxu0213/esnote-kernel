@@ -23,8 +23,8 @@ import (
 	"github.com/88250/lute/ast"
 	"github.com/88250/lute/parse"
 	gogpt "github.com/sashabaranov/go-gpt3"
-	"github.com/siyuan-note/siyuan/kernel/treenode"
-	"github.com/siyuan-note/siyuan/kernel/util"
+	"github.com/wangxu0213/esnote-kernel/treenode"
+	"github.com/wangxu0213/esnote-kernel/util"
 )
 
 func ChatGPT(msg string) (ret string) {

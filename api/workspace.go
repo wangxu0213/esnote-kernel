@@ -29,9 +29,9 @@ import (
 	"github.com/88250/gulu"
 	"github.com/facette/natsort"
 	"github.com/gin-gonic/gin"
-	"github.com/siyuan-note/siyuan/kernel/model"
-	"github.com/siyuan-note/siyuan/kernel/util"
-	"github.com/wangxu0213/esnote-logging"
+	"github.com/wangxu0213/esnote-kernel/logging"
+	"github.com/wangxu0213/esnote-kernel/model"
+	"github.com/wangxu0213/esnote-kernel/util"
 )
 
 func createWorkspaceDir(c *gin.Context) {

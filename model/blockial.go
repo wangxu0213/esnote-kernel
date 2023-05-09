@@ -28,9 +28,9 @@ import (
 	"github.com/88250/lute/lex"
 	"github.com/88250/lute/parse"
 	"github.com/araddon/dateparse"
-	"github.com/siyuan-note/siyuan/kernel/cache"
-	"github.com/siyuan-note/siyuan/kernel/treenode"
-	"github.com/siyuan-note/siyuan/kernel/util"
+	"github.com/wangxu0213/esnote-kernel/cache"
+	"github.com/wangxu0213/esnote-kernel/treenode"
+	"github.com/wangxu0213/esnote-kernel/util"
 )
 
 func SetBlockReminder(id string, timed string) (err error) {

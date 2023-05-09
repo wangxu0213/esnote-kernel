@@ -34,12 +34,12 @@ import (
 	"github.com/88250/lute/render"
 	sprig "github.com/Masterminds/sprig/v3"
 	"github.com/araddon/dateparse"
-	"github.com/siyuan-note/filelock"
-	"github.com/siyuan-note/siyuan/kernel/search"
-	"github.com/siyuan-note/siyuan/kernel/sql"
-	"github.com/siyuan-note/siyuan/kernel/treenode"
-	"github.com/siyuan-note/siyuan/kernel/util"
-	"github.com/wangxu0213/esnote-logging"
+	"github.com/wangxu0213/esnote-kernel/esnote-filelock"
+	"github.com/wangxu0213/esnote-kernel/logging"
+	"github.com/wangxu0213/esnote-kernel/search"
+	"github.com/wangxu0213/esnote-kernel/sql"
+	"github.com/wangxu0213/esnote-kernel/treenode"
+	"github.com/wangxu0213/esnote-kernel/util"
 )
 
 func RenderGoTemplate(templateContent string) (ret string, err error) {

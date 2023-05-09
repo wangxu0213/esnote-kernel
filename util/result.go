@@ -18,7 +18,7 @@ package util
 
 import (
 	"github.com/88250/gulu"
-	"github.com/wangxu0213/esnote-logging"
+	"github.com/wangxu0213/esnote-kernel/logging"
 )
 
 type PushMode int

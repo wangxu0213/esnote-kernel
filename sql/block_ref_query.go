@@ -24,8 +24,8 @@ import (
 	"github.com/88250/gulu"
 	"github.com/88250/lute/parse"
 	"github.com/emirpasic/gods/sets/hashset"
-	"github.com/siyuan-note/siyuan/kernel/search"
-	"github.com/wangxu0213/esnote-logging"
+	"github.com/wangxu0213/esnote-kernel/logging"
+	"github.com/wangxu0213/esnote-kernel/search"
 )
 
 func QueryVirtualRefKeywords(name, alias, anchor, doc bool) (ret []string) {

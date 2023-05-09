@@ -25,8 +25,8 @@ import (
 	"time"
 
 	goPS "github.com/mitchellh/go-ps"
-	"github.com/siyuan-note/siyuan/kernel/util"
-	"github.com/wangxu0213/esnote-logging"
+	"github.com/wangxu0213/esnote-kernel/logging"
+	"github.com/wangxu0213/esnote-kernel/util"
 )
 
 func HandleSignal() {

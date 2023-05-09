@@ -29,10 +29,10 @@ import (
 	"github.com/88250/gulu"
 	"github.com/gabriel-vasile/mimetype"
 	"github.com/gin-gonic/gin"
-	"github.com/siyuan-note/filelock"
-	"github.com/siyuan-note/siyuan/kernel/model"
-	"github.com/siyuan-note/siyuan/kernel/util"
-	"github.com/wangxu0213/esnote-logging"
+	"github.com/wangxu0213/esnote-kernel/esnote-filelock"
+	"github.com/wangxu0213/esnote-kernel/logging"
+	"github.com/wangxu0213/esnote-kernel/model"
+	"github.com/wangxu0213/esnote-kernel/util"
 )
 
 func copyFile(c *gin.Context) {

@@ -26,9 +26,9 @@ import (
 
 	"github.com/dustin/go-humanize"
 	ants "github.com/panjf2000/ants/v2"
-	"github.com/siyuan-note/httpclient"
-	"github.com/siyuan-note/siyuan/kernel/util"
-	"github.com/wangxu0213/esnote-logging"
+	"github.com/wangxu0213/esnote-kernel/httpclient"
+	"github.com/wangxu0213/esnote-kernel/logging"
+	"github.com/wangxu0213/esnote-kernel/util"
 )
 
 type Widget struct {

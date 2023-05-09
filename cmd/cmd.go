@@ -18,8 +18,8 @@ package cmd
 
 import (
 	"github.com/olahol/melody"
-	"github.com/siyuan-note/siyuan/kernel/util"
-	"github.com/wangxu0213/esnote-logging"
+	"github.com/wangxu0213/esnote-kernel/logging"
+	"github.com/wangxu0213/esnote-kernel/util"
 )
 
 type Cmd interface {

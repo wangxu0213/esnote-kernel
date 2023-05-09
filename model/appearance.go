@@ -27,10 +27,10 @@ import (
 
 	"github.com/88250/gulu"
 	"github.com/fsnotify/fsnotify"
-	"github.com/siyuan-note/filelock"
-	"github.com/siyuan-note/siyuan/kernel/bazaar"
-	"github.com/siyuan-note/siyuan/kernel/util"
-	"github.com/wangxu0213/esnote-logging"
+	"github.com/wangxu0213/esnote-kernel/bazaar"
+	"github.com/wangxu0213/esnote-kernel/esnote-filelock"
+	"github.com/wangxu0213/esnote-kernel/logging"
+	"github.com/wangxu0213/esnote-kernel/util"
 )
 
 func InitAppearance() {

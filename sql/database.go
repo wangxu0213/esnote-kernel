@@ -38,10 +38,10 @@ import (
 	"github.com/88250/lute/parse"
 	"github.com/mattn/go-sqlite3"
 	_ "github.com/mattn/go-sqlite3"
-	"github.com/siyuan-note/eventbus"
-	"github.com/siyuan-note/siyuan/kernel/treenode"
-	"github.com/siyuan-note/siyuan/kernel/util"
-	"github.com/wangxu0213/esnote-logging"
+	"github.com/wangxu0213/esnote-kernel/eventbus"
+	"github.com/wangxu0213/esnote-kernel/logging"
+	"github.com/wangxu0213/esnote-kernel/treenode"
+	"github.com/wangxu0213/esnote-kernel/util"
 )
 
 var (

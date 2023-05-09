@@ -30,12 +30,12 @@ import (
 	"github.com/88250/lute/ast"
 	"github.com/88250/lute/parse"
 	"github.com/open-spaced-repetition/go-fsrs"
-	"github.com/siyuan-note/riff"
-	"github.com/siyuan-note/siyuan/kernel/cache"
-	"github.com/siyuan-note/siyuan/kernel/sql"
-	"github.com/siyuan-note/siyuan/kernel/treenode"
-	"github.com/siyuan-note/siyuan/kernel/util"
-	"github.com/wangxu0213/esnote-logging"
+	"github.com/wangxu0213/esnote-kernel/cache"
+	"github.com/wangxu0213/esnote-kernel/logging"
+	"github.com/wangxu0213/esnote-kernel/riff"
+	"github.com/wangxu0213/esnote-kernel/sql"
+	"github.com/wangxu0213/esnote-kernel/treenode"
+	"github.com/wangxu0213/esnote-kernel/util"
 )
 
 func GetFlashcardNotebooks() (ret []*Box) {

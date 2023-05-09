@@ -26,9 +26,9 @@ import (
 
 	"github.com/88250/gulu"
 	"github.com/gin-gonic/gin"
-	"github.com/siyuan-note/siyuan/kernel/util"
 	"github.com/steambap/captcha"
-	"github.com/wangxu0213/esnote-logging"
+	"github.com/wangxu0213/esnote-kernel/logging"
+	"github.com/wangxu0213/esnote-kernel/util"
 )
 
 func LogoutAuth(c *gin.Context) {

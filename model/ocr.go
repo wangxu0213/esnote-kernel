@@ -10,10 +10,10 @@ import (
 
 	"github.com/88250/gulu"
 	"github.com/dustin/go-humanize"
-	"github.com/siyuan-note/siyuan/kernel/cache"
-	"github.com/siyuan-note/siyuan/kernel/task"
-	"github.com/siyuan-note/siyuan/kernel/util"
-	"github.com/wangxu0213/esnote-logging"
+	"github.com/wangxu0213/esnote-kernel/cache"
+	"github.com/wangxu0213/esnote-kernel/logging"
+	"github.com/wangxu0213/esnote-kernel/task"
+	"github.com/wangxu0213/esnote-kernel/util"
 )
 
 func OCRAssetsJob() {

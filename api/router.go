@@ -18,7 +18,7 @@ package api
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/siyuan-note/siyuan/kernel/model"
+	"github.com/wangxu0213/esnote-kernel/model"
 )
 
 func ServeAPI(ginServer *gin.Engine) {

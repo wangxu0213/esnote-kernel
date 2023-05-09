@@ -21,8 +21,8 @@ import (
 
 	"github.com/88250/gulu"
 	"github.com/gin-gonic/gin"
-	"github.com/siyuan-note/siyuan/kernel/model"
-	"github.com/siyuan-note/siyuan/kernel/util"
+	"github.com/wangxu0213/esnote-kernel/model"
+	"github.com/wangxu0213/esnote-kernel/util"
 )
 
 func getRecentDocs(c *gin.Context) {

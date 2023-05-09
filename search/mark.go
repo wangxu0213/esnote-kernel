@@ -24,7 +24,7 @@ import (
 	"unicode/utf8"
 
 	"github.com/88250/lute/lex"
-	"github.com/siyuan-note/siyuan/kernel/util"
+	"github.com/wangxu0213/esnote-kernel/util"
 )
 
 func MarkText(text string, keyword string, beforeLen int, caseSensitive bool) (pos int, marked string) {

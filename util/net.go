@@ -27,8 +27,8 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/imroc/req/v3"
 	"github.com/olahol/melody"
-	"github.com/siyuan-note/httpclient"
-	"github.com/wangxu0213/esnote-logging"
+	"github.com/wangxu0213/esnote-kernel/httpclient"
+	"github.com/wangxu0213/esnote-kernel/logging"
 )
 
 func IsOnline(checkURL string, skipTlsVerify bool) bool {

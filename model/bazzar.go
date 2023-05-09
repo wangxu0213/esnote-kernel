@@ -22,9 +22,9 @@ import (
 	"path/filepath"
 
 	"github.com/88250/gulu"
-	"github.com/siyuan-note/siyuan/kernel/util"
+	"github.com/wangxu0213/esnote-kernel/util"
 
-	"github.com/siyuan-note/siyuan/kernel/bazaar"
+	"github.com/wangxu0213/esnote-kernel/bazaar"
 )
 
 func GetPackageREADME(repoURL, repoHash string) (ret string) {

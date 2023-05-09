@@ -22,7 +22,7 @@ import (
 	"crypto/cipher"
 	"encoding/hex"
 
-	"github.com/wangxu0213/esnote-logging"
+	"github.com/wangxu0213/esnote-kernel/logging"
 )
 
 var SK = []byte("696D897C9AA0611B")

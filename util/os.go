@@ -20,7 +20,7 @@ package util
 
 import (
 	"github.com/shirou/gopsutil/v3/host"
-	"github.com/wangxu0213/esnote-logging"
+	"github.com/wangxu0213/esnote-kernel/logging"
 )
 
 func GetOSPlatform() (plat string) {

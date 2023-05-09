@@ -24,7 +24,7 @@ import (
 	"github.com/88250/gulu"
 	"github.com/ConradIrwin/font/sfnt"
 	"github.com/flopp/go-findfont"
-	"github.com/wangxu0213/esnote-logging"
+	"github.com/wangxu0213/esnote-kernel/logging"
 	ttc "golang.org/x/image/font/sfnt"
 	textUnicode "golang.org/x/text/encoding/unicode"
 	"golang.org/x/text/transform"

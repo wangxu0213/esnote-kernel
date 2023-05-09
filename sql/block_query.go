@@ -26,9 +26,9 @@ import (
 	"github.com/88250/lute/ast"
 	"github.com/88250/vitess-sqlparser/sqlparser"
 	"github.com/emirpasic/gods/sets/hashset"
-	"github.com/siyuan-note/siyuan/kernel/treenode"
-	"github.com/siyuan-note/siyuan/kernel/util"
-	"github.com/wangxu0213/esnote-logging"
+	"github.com/wangxu0213/esnote-kernel/logging"
+	"github.com/wangxu0213/esnote-kernel/treenode"
+	"github.com/wangxu0213/esnote-kernel/util"
 )
 
 func QueryEmptyContentEmbedBlocks() (ret []*Block) {

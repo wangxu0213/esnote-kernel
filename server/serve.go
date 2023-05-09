@@ -38,11 +38,11 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/mssola/user_agent"
 	"github.com/olahol/melody"
-	"github.com/siyuan-note/siyuan/kernel/api"
-	"github.com/siyuan-note/siyuan/kernel/cmd"
-	"github.com/siyuan-note/siyuan/kernel/model"
-	"github.com/siyuan-note/siyuan/kernel/util"
-	"github.com/wangxu0213/esnote-logging"
+	"github.com/wangxu0213/esnote-kernel/api"
+	"github.com/wangxu0213/esnote-kernel/cmd"
+	"github.com/wangxu0213/esnote-kernel/logging"
+	"github.com/wangxu0213/esnote-kernel/model"
+	"github.com/wangxu0213/esnote-kernel/util"
 )
 
 var cookieStore = cookie.NewStore([]byte("ATN51UlxVq1Gcvdf"))

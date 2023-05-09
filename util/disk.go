@@ -21,7 +21,7 @@ package util
 import (
 	"github.com/dustin/go-humanize"
 	"github.com/shirou/gopsutil/v3/disk"
-	"github.com/wangxu0213/esnote-logging"
+	"github.com/wangxu0213/esnote-kernel/logging"
 )
 
 func NeedWarnDiskUsage(dataSize int64) bool {

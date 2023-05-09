@@ -21,9 +21,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/siyuan-note/siyuan/kernel/search"
-	"github.com/siyuan-note/siyuan/kernel/util"
-	"github.com/wangxu0213/esnote-logging"
+	"github.com/wangxu0213/esnote-kernel/logging"
+	"github.com/wangxu0213/esnote-kernel/search"
+	"github.com/wangxu0213/esnote-kernel/util"
 )
 
 func SearchWidget(keyword string) (ret []*Block) {

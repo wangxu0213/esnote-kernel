@@ -1,11 +1,11 @@
-module github.com/siyuan-note/siyuan/kernel
+module github.com/wangxu0213/esnote-kernel
 
 go 1.18
 
 require (
 	github.com/88250/clipboard v0.1.5
 	github.com/88250/css v0.1.2
-	github.com/88250/gulu v1.2.3-0.20230321113152-38c4a3d73c37
+	github.com/88250/gulu v1.2.3-0.20230501031728-4d62370997cd
 	github.com/88250/lute v1.7.6-0.20230420041521-254a14e6b604
 	github.com/88250/pdfcpu v0.3.14-0.20230401044135-c7369a99720c
 	github.com/88250/vitess-sqlparser v0.0.0-20210205111146-56a2ded2aba1
@@ -44,13 +44,6 @@ require (
 	github.com/radovskyb/watcher v1.0.7
 	github.com/sashabaranov/go-gpt3 v1.4.0
 	github.com/shirou/gopsutil/v3 v3.23.2
-	github.com/siyuan-note/dejavu v0.0.0-20230424035816-c47703a13fd4
-	github.com/siyuan-note/encryption v0.0.0-20220713091850-5ecd92177b75
-	github.com/siyuan-note/eventbus v0.0.0-20230216103454-41885eac6c2b
-	github.com/siyuan-note/filelock v0.0.0-20230417044524-125ee78b5cc9
-	github.com/siyuan-note/httpclient v0.0.0-20230420113830-aaaf2c3bc514
-	github.com/siyuan-note/logging v0.0.0-20230327073243-ebe83aec1493
-	github.com/siyuan-note/riff v0.0.0-20230224144841-cfbe0748ddb7
 	github.com/steambap/captcha v1.4.1
 	github.com/studio-b12/gowebdav v0.0.0-20230203202212-3282f94193f2
 	github.com/vmihailenco/msgpack/v5 v5.3.5
@@ -59,7 +52,6 @@ require (
 	golang.org/x/mobile v0.0.0-20220722155234-aaac322e2105
 	golang.org/x/mod v0.10.0
 	golang.org/x/text v0.9.0
-	github.com/wangxu0213/esnote-logging v0.0.0-20230508144924-a699a9c22ef5
 )
 
 require (

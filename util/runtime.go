@@ -34,8 +34,8 @@ import (
 	"github.com/denisbrodbeck/machineid"
 	"github.com/go-ole/go-ole"
 	"github.com/go-ole/go-ole/oleutil"
-	"github.com/siyuan-note/httpclient"
-	"github.com/wangxu0213/esnote-logging"
+	"github.com/wangxu0213/esnote-kernel/httpclient"
+	"github.com/wangxu0213/esnote-kernel/logging"
 )
 
 const DatabaseVer = "20220501" // 修改表结构的话需要修改这里

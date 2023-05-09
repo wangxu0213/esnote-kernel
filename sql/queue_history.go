@@ -24,10 +24,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/siyuan-note/eventbus"
-	"github.com/siyuan-note/siyuan/kernel/task"
-	"github.com/siyuan-note/siyuan/kernel/util"
-	"github.com/wangxu0213/esnote-logging"
+	"github.com/wangxu0213/esnote-kernel/eventbus"
+	"github.com/wangxu0213/esnote-kernel/logging"
+	"github.com/wangxu0213/esnote-kernel/task"
+	"github.com/wangxu0213/esnote-kernel/util"
 )
 
 var (

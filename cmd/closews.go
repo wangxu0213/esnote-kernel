@@ -17,7 +17,7 @@
 package cmd
 
 import (
-	"github.com/siyuan-note/siyuan/kernel/util"
+	"github.com/wangxu0213/esnote-kernel/util"
 )
 
 type closews struct {

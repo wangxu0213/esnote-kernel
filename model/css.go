@@ -18,8 +18,8 @@ package model
 
 import (
 	"github.com/88250/css"
-	"github.com/siyuan-note/siyuan/kernel/util"
-	"github.com/wangxu0213/esnote-logging"
+	"github.com/wangxu0213/esnote-kernel/logging"
+	"github.com/wangxu0213/esnote-kernel/util"
 	"os"
 	"path/filepath"
 	"strings"

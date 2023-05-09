@@ -20,8 +20,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/siyuan-note/httpclient"
-	"github.com/wangxu0213/esnote-logging"
+	"github.com/wangxu0213/esnote-kernel/httpclient"
+	"github.com/wangxu0213/esnote-kernel/logging"
 )
 
 var cachedRhyResult = map[string]interface{}{}

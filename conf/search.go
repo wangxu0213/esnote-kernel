@@ -21,7 +21,7 @@ import (
 	"strings"
 
 	"github.com/88250/lute/ast"
-	"github.com/siyuan-note/siyuan/kernel/treenode"
+	"github.com/wangxu0213/esnote-kernel/treenode"
 )
 
 type Search struct {

@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/siyuan-note/eventbus"
-	"github.com/wangxu0213/esnote-logging"
+	"github.com/wangxu0213/esnote-kernel/eventbus"
+	"github.com/wangxu0213/esnote-kernel/logging"
 )
 
 type History struct {

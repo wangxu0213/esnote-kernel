@@ -22,7 +22,7 @@ import (
 	"strings"
 
 	"github.com/88250/vitess-sqlparser/sqlparser"
-	"github.com/wangxu0213/esnote-logging"
+	"github.com/wangxu0213/esnote-kernel/logging"
 )
 
 type Span struct {

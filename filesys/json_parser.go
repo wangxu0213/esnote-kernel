@@ -19,7 +19,7 @@ import (
 	"github.com/88250/lute/parse"
 	"github.com/88250/lute/util"
 	"github.com/goccy/go-json"
-	"github.com/siyuan-note/siyuan/kernel/treenode"
+	"github.com/wangxu0213/esnote-kernel/treenode"
 )
 
 func ParseJSONWithoutFix(jsonData []byte, options *parse.Options) (ret *parse.Tree, err error) {

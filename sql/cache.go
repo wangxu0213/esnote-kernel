@@ -24,7 +24,7 @@ import (
 	"github.com/dgraph-io/ristretto"
 	"github.com/jinzhu/copier"
 	gcache "github.com/patrickmn/go-cache"
-	"github.com/wangxu0213/esnote-logging"
+	"github.com/wangxu0213/esnote-kernel/logging"
 )
 
 var cacheDisabled = true

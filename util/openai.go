@@ -19,7 +19,7 @@ package util
 import (
 	"context"
 	gogpt "github.com/sashabaranov/go-gpt3"
-	"github.com/wangxu0213/esnote-logging"
+	"github.com/wangxu0213/esnote-kernel/logging"
 	"net/http"
 	"net/url"
 	"strings"

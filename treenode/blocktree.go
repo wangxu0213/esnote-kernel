@@ -31,10 +31,10 @@ import (
 	"github.com/88250/lute/parse"
 	"github.com/dustin/go-humanize"
 	"github.com/panjf2000/ants/v2"
-	util2 "github.com/siyuan-note/dejavu/util"
-	"github.com/siyuan-note/siyuan/kernel/util"
 	"github.com/vmihailenco/msgpack/v5"
-	"github.com/wangxu0213/esnote-logging"
+	util2 "github.com/wangxu0213/esnote-kernel/dejavu/util"
+	"github.com/wangxu0213/esnote-kernel/logging"
+	"github.com/wangxu0213/esnote-kernel/util"
 )
 
 var blockTrees = &sync.Map{}
