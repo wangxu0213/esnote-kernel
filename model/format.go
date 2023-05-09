@@ -24,7 +24,7 @@ import (
 	"github.com/88250/lute/ast"
 	"github.com/88250/lute/parse"
 	"github.com/88250/lute/render"
-	"github.com/wangxu0213/esnote-kernel/esnote-filelock"
+	"github.com/wangxu0213/esnote-kernel/filelock"
 	"github.com/wangxu0213/esnote-kernel/logging"
 	"github.com/wangxu0213/esnote-kernel/util"
 )

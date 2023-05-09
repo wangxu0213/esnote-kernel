@@ -28,7 +28,7 @@ import (
 	"github.com/88250/gulu"
 	"github.com/fsnotify/fsnotify"
 	"github.com/wangxu0213/esnote-kernel/bazaar"
-	"github.com/wangxu0213/esnote-kernel/esnote-filelock"
+	"github.com/wangxu0213/esnote-kernel/filelock"
 	"github.com/wangxu0213/esnote-kernel/logging"
 	"github.com/wangxu0213/esnote-kernel/util"
 )

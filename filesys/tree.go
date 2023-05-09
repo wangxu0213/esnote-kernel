@@ -30,7 +30,7 @@ import (
 	"github.com/88250/lute/render"
 	jsoniter "github.com/json-iterator/go"
 	"github.com/wangxu0213/esnote-kernel/cache"
-	"github.com/wangxu0213/esnote-kernel/esnote-filelock"
+	"github.com/wangxu0213/esnote-kernel/filelock"
 	"github.com/wangxu0213/esnote-kernel/logging"
 	"github.com/wangxu0213/esnote-kernel/treenode"
 	"github.com/wangxu0213/esnote-kernel/util"

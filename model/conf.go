@@ -35,7 +35,7 @@ import (
 	"github.com/dustin/go-humanize"
 	"github.com/getsentry/sentry-go"
 	"github.com/wangxu0213/esnote-kernel/conf"
-	"github.com/wangxu0213/esnote-kernel/esnote-filelock"
+	"github.com/wangxu0213/esnote-kernel/filelock"
 	"github.com/wangxu0213/esnote-kernel/logging"
 	"github.com/wangxu0213/esnote-kernel/sql"
 	"github.com/wangxu0213/esnote-kernel/task"

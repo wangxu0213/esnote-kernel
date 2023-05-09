@@ -34,7 +34,7 @@ import (
 	"github.com/88250/gulu"
 	figure "github.com/common-nighthawk/go-figure"
 	"github.com/gofrs/flock"
-	"github.com/wangxu0213/esnote-kernel/esnote-filelock"
+	"github.com/wangxu0213/esnote-kernel/filelock"
 	"github.com/wangxu0213/esnote-kernel/httpclient"
 	"github.com/wangxu0213/esnote-kernel/logging"
 )

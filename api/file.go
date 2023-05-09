@@ -29,7 +29,7 @@ import (
 	"github.com/88250/gulu"
 	"github.com/gabriel-vasile/mimetype"
 	"github.com/gin-gonic/gin"
-	"github.com/wangxu0213/esnote-kernel/esnote-filelock"
+	"github.com/wangxu0213/esnote-kernel/filelock"
 	"github.com/wangxu0213/esnote-kernel/logging"
 	"github.com/wangxu0213/esnote-kernel/model"
 	"github.com/wangxu0213/esnote-kernel/util"

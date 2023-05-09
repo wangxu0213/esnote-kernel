@@ -30,7 +30,7 @@ import (
 	"github.com/PuerkitoBio/goquery"
 	"github.com/araddon/dateparse"
 	"github.com/imroc/req/v3"
-	"github.com/wangxu0213/esnote-kernel/esnote-filelock"
+	"github.com/wangxu0213/esnote-kernel/filelock"
 	"github.com/wangxu0213/esnote-kernel/httpclient"
 	"github.com/wangxu0213/esnote-kernel/logging"
 	"github.com/wangxu0213/esnote-kernel/util"

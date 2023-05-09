@@ -15,6 +15,8 @@ require (
 	github.com/PuerkitoBio/goquery v1.8.1
 	github.com/Xuanwo/go-locale v1.1.0
 	github.com/araddon/dateparse v0.0.0-20210429162001-6b43995a97de
+	github.com/asaskevich/EventBus v0.0.0-20200907212545-49d423059eef
+	github.com/aws/aws-sdk-go v1.44.246
 	github.com/common-nighthawk/go-figure v0.0.0-20210622060536-734e95fb86be
 	github.com/denisbrodbeck/machineid v1.0.1
 	github.com/dgraph-io/ristretto v0.1.1
@@ -34,6 +36,7 @@ require (
 	github.com/imroc/req/v3 v3.33.2
 	github.com/jinzhu/copier v0.3.5
 	github.com/json-iterator/go v1.1.12
+	github.com/klauspost/compress v1.16.5
 	github.com/mattn/go-sqlite3 v2.0.3+incompatible
 	github.com/mitchellh/go-ps v1.0.0
 	github.com/mssola/user_agent v0.6.0
@@ -41,16 +44,21 @@ require (
 	github.com/open-spaced-repetition/go-fsrs v0.1.0
 	github.com/panjf2000/ants/v2 v2.7.3
 	github.com/patrickmn/go-cache v2.1.0+incompatible
+	github.com/qiniu/go-sdk/v7 v7.14.0
 	github.com/radovskyb/watcher v1.0.7
+	github.com/restic/chunker v0.4.0
+	github.com/sabhiram/go-gitignore v0.0.0-20210923224102-525f6e181f06
 	github.com/sashabaranov/go-gpt3 v1.4.0
 	github.com/shirou/gopsutil/v3 v3.23.2
 	github.com/steambap/captcha v1.4.1
 	github.com/studio-b12/gowebdav v0.0.0-20230203202212-3282f94193f2
 	github.com/vmihailenco/msgpack/v5 v5.3.5
 	github.com/xrash/smetrics v0.0.0-20201216005158-039620a65673
+	golang.org/x/crypto v0.8.0
 	golang.org/x/image v0.6.0
 	golang.org/x/mobile v0.0.0-20220722155234-aaac322e2105
 	golang.org/x/mod v0.10.0
+	golang.org/x/net v0.9.0
 	golang.org/x/text v0.9.0
 )
 
@@ -60,8 +68,6 @@ require (
 	github.com/Masterminds/semver/v3 v3.2.0 // indirect
 	github.com/alecthomas/chroma v0.10.0 // indirect
 	github.com/andybalholm/cascadia v1.3.1 // indirect
-	github.com/asaskevich/EventBus v0.0.0-20200907212545-49d423059eef // indirect
-	github.com/aws/aws-sdk-go v1.44.246 // indirect
 	github.com/bytedance/sonic v1.8.5 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
 	github.com/chenzhuoyu/base64x v0.0.0-20221115062448-fe3a3abad311 // indirect
@@ -91,7 +97,6 @@ require (
 	github.com/imdario/mergo v0.3.13 // indirect
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/juju/errors v1.0.0 // indirect
-	github.com/klauspost/compress v1.16.5 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.4 // indirect
 	github.com/leodido/go-urn v1.2.2 // indirect
 	github.com/lufia/plan9stats v0.0.0-20230110061619-bbe2e5e100de // indirect
@@ -104,13 +109,10 @@ require (
 	github.com/pelletier/go-toml/v2 v2.0.7 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/power-devops/perfstat v0.0.0-20221212215047-62379fc7944b // indirect
-	github.com/qiniu/go-sdk/v7 v7.14.0 // indirect
 	github.com/quic-go/qpack v0.4.0 // indirect
 	github.com/quic-go/qtls-go1-19 v0.3.2 // indirect
 	github.com/quic-go/qtls-go1-20 v0.2.2 // indirect
 	github.com/quic-go/quic-go v0.34.0 // indirect
-	github.com/restic/chunker v0.4.0 // indirect
-	github.com/sabhiram/go-gitignore v0.0.0-20210923224102-525f6e181f06 // indirect
 	github.com/shopspring/decimal v1.3.1 // indirect
 	github.com/spf13/cast v1.5.0 // indirect
 	github.com/tklauser/go-sysconf v0.3.11 // indirect
@@ -120,9 +122,7 @@ require (
 	github.com/vmihailenco/tagparser/v2 v2.0.0 // indirect
 	github.com/yusufpapurcu/wmi v1.2.2 // indirect
 	golang.org/x/arch v0.3.0 // indirect
-	golang.org/x/crypto v0.8.0 // indirect
 	golang.org/x/exp v0.0.0-20230419192730-864b3d6c5c2c // indirect
-	golang.org/x/net v0.9.0 // indirect
 	golang.org/x/sync v0.1.0 // indirect
 	golang.org/x/sys v0.7.0 // indirect
 	golang.org/x/tools v0.8.0 // indirect

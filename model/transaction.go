@@ -32,7 +32,7 @@ import (
 	"github.com/88250/lute/parse"
 	"github.com/emirpasic/gods/sets/hashset"
 	"github.com/wangxu0213/esnote-kernel/cache"
-	"github.com/wangxu0213/esnote-kernel/esnote-filelock"
+	"github.com/wangxu0213/esnote-kernel/filelock"
 	"github.com/wangxu0213/esnote-kernel/filesys"
 	"github.com/wangxu0213/esnote-kernel/logging"
 	"github.com/wangxu0213/esnote-kernel/sql"

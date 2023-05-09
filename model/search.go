@@ -38,7 +38,7 @@ import (
 	"github.com/88250/vitess-sqlparser/sqlparser"
 	"github.com/jinzhu/copier"
 	"github.com/wangxu0213/esnote-kernel/conf"
-	"github.com/wangxu0213/esnote-kernel/esnote-filelock"
+	"github.com/wangxu0213/esnote-kernel/filelock"
 	"github.com/wangxu0213/esnote-kernel/logging"
 	"github.com/wangxu0213/esnote-kernel/search"
 	"github.com/wangxu0213/esnote-kernel/sql"

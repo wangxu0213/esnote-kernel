@@ -34,7 +34,7 @@ import (
 	"github.com/88250/lute/render"
 	sprig "github.com/Masterminds/sprig/v3"
 	"github.com/araddon/dateparse"
-	"github.com/wangxu0213/esnote-kernel/esnote-filelock"
+	"github.com/wangxu0213/esnote-kernel/filelock"
 	"github.com/wangxu0213/esnote-kernel/logging"
 	"github.com/wangxu0213/esnote-kernel/search"
 	"github.com/wangxu0213/esnote-kernel/sql"

@@ -37,7 +37,7 @@ import (
 	"github.com/dustin/go-humanize"
 	"github.com/gabriel-vasile/mimetype"
 	"github.com/wangxu0213/esnote-kernel/cache"
-	"github.com/wangxu0213/esnote-kernel/esnote-filelock"
+	"github.com/wangxu0213/esnote-kernel/filelock"
 	"github.com/wangxu0213/esnote-kernel/filesys"
 	"github.com/wangxu0213/esnote-kernel/httpclient"
 	"github.com/wangxu0213/esnote-kernel/logging"
